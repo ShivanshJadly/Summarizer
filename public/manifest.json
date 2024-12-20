@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Summarizer",
+  "icons": {
+      "48": "icon48.png"
+  },
+  "action":{
+      "default_popup": "index.html"
+  },
+  "permissions": [
+      "tabs",
+      "scripting",
+      "activeTab"
+  ],
+  "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  }
+}
